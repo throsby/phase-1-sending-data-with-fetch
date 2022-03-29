@@ -15,7 +15,7 @@ describe( "submitData()", () => {
 
     chai.spy.on( window, 'fetch' );
     window.onerror = undefined;
-
+ 
   } );
 
   it( "makes a POST request to /users with a name and email", async () => {
